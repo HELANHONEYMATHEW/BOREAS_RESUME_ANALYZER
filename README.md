@@ -104,3 +104,36 @@ Role-based middleware for access protection.
 File upload validation with a 10MB size limit.
 Sanitized file storage for security.
 Maintenance mode support for safe system updates.
+
+
+## 📦 Installation
+
+### Prerequisites
+- Node.js (v16+)
+- MongoDB (local or Atlas)
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/HELANHONEYMATHEW/resume-analyzer.git
+cd resume-analyzer
+
+2. Backend setup
+
+'''bash
+cd backend
+npm install
+
+3. Create a .env file in the backend/ folder:
+PORT=5000
+MONGO_URI=u ur mongodb localhost
+JWT_SECRET=your_super_secret_key
+
+4.Start the backend:
+
+npm run dev
+
+5.Frontend setup
+
+cd ../frontend
+npm install
+npm run dev
